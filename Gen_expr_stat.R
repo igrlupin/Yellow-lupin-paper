@@ -3,8 +3,6 @@ library(tidyr)
 library(dplyr)
 library(mratios)
 
-#setwd('~/konas13@gmail.com/Dokumenty/Łubin/Publikacje/FT_zolty_Poznań/')
-
 dane <- read.xlsx('TableS13_expression_all_data.xlsx')
 wb <- loadWorkbook("TableS14_expression_means.xlsx")
 wb <- loadWorkbook("~/Pobrane/TableS14_expression_means_n2.xlsx")
