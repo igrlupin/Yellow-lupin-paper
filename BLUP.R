@@ -13,11 +13,11 @@ library(moments)
 library(MVN)
 library(emmeans)
 
-setwd('~/konas13@gmail.com/Dokumenty/Łubin/Publikacje/FT_zolty_Poznań/')
+#setwd('~/konas13@gmail.com/Dokumenty/Łubin/Publikacje/FT_zolty_Poznań/')
 
 
-df <- read.csv('~/konas13@gmail.com/Dokumenty/Łubin/Publikacje/FT_zolty_Poznań/TableS7.csv', sep = '\t')
-df <- read.csv('~/konas13@gmail.com/Dokumenty/Łubin/Publikacje/FT_zolty_Poznań/TableS7_updated.csv', sep = '\t')
+df <- read.csv('TableS7.csv', sep = '\t')
+df <- read.csv('TableS7_updated.csv', sep = '\t')
 df$Name[df$Name == "Parys "] <- "Parys"
 
 df1 <- df[,1:15]
