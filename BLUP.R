@@ -13,7 +13,6 @@ library(moments)
 library(MVN)
 library(emmeans)
 
-#setwd('~/konas13@gmail.com/Dokumenty/Łubin/Publikacje/FT_zolty_Poznań/')
 
 
 df <- read.csv('TableS7.csv', sep = '\t')
