@@ -3,7 +3,6 @@ library(tidyr)
 library(dplyr)
 library(mratios)
 
-setwd('~/Pobrane/YL/')
 
 #################
 ###   8h  #######
